@@ -83,7 +83,7 @@ export default class CombatantHorizontal extends Component {
     if (data.maxhit) maxhit = data.maxhit.replace('-', ': ')
     return (
       <div
-        className={`row ${data.Job}${jobStyleClass}${
+        className={`row ${data.Job.toLowerCase()}${jobStyleClass}${
           isSelf && config.showSelf ? ' self' : ''
         }`}
         style={{ order }}

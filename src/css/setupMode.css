@@ -19,7 +19,7 @@
   color: rgba(255, 255, 255, 0.3);
 }
 .setupMode .wrapper.hide + .notice {
-  display: block;
+  /* display: block; */
 }
 
 .instructions {
