@@ -113,7 +113,7 @@ export function withHelper({
         this.props.config.configWindow.width
       },height=${this.props.config.configWindow.height}`
       this.configWindow = window.open(
-        './#/config',
+        `${location.pathname}/#/config`,
         'Horizoverlay Config',
         windowFeatures
       )
