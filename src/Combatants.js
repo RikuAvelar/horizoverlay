@@ -12,11 +12,14 @@ class Combatants extends Component {
   render() {
     const maxRows = this.props.config.maxCombatants
     const dataArray = Object.keys(this.props.data)
-    const battler = dataArray.filter(player => (
+    const player = dataArray.find(player => this.props.data[player].name.toLowerCase() === 'you');
+    const battlerBaseList = dataArray.filter(player => (
         this.props.data[player].name.toLowerCase() !== 'limit break'
+    &&  this.props.data[player].name.toLowerCase() !== 'you'
 		&& (this.props.config.showJobless || (this.props.data[player].Job && this.props.data[player].Job !== '')) //doesn't have a job, filter it out.
 		&& (this.props.data[player].ENCDPS > 0 || this.props.data[player].ENCHPS > 0) //irrelevant npcs (i.e. estinien) like to show up for whatever reason
-	)).slice(0, maxRows)
+	)).sort((a, b) => this.props.data[b].ENCDPS - this.props.data[a].ENCDPS).slice(0, maxRows - 1)
+    const battler = [player, ...battlerBaseList];
     let rows = []
     let combatant
     let isSelf
