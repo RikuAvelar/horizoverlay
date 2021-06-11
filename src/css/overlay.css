@@ -1,5 +1,5 @@
 .inactive .combatants {
-  /*display: none;*/
+  /* display: none; */
 }
 .combatants {
   display: flex;
@@ -75,9 +75,9 @@
 .row .data-items.highlight:before {
   background-image: linear-gradient(
     to left,
-    rgba(var(--main-color), 0.5) 0%,
-    rgba(var(--main-color), 0.5) 51%,
-    rgba(var(--main-color), 0.1) 51%,
+    rgba(var(--main-color), 0.7) 0%,
+    rgba(var(--main-color), 0.6) 51%,
+    rgba(var(--main-color), 0.1) 45%,
     rgba(var(--main-color), 0.1) 100%
   );
   background-repeat: no-repeat;
