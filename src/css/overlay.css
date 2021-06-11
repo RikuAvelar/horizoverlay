@@ -25,49 +25,49 @@
   --main-color: 255, 255, 255;
 }
 .row.blm {
-  --main-color: 17, 10, 32;
+  --main-color: 58, 32, 95;
 }
 .row.brd {
-  --main-color: 61, 70, 31;
+  --main-color: 97, 118, 62;
 }
 .row.whm {
-  --main-color: 42, 35, 32;
+  --main-color: 109, 90, 84;
 }
 .row.ast {
-  --main-color: 75, 51, 20;
+  --main-color: 200, 113, 46;
 }
 .row.sch {
-  --main-color: 22, 20, 42;
+  --main-color: 78, 75, 142;
 }
 .row.pld {
-  --main-color: 32, 45, 58;
+  --main-color: 80, 115, 147;
 }
 .row.drk {
-  --main-color: 18, 8, 10;
+  --main-color: 77, 39, 54;
 }
 .row.war {
-  --main-color: 59, 24, 24;
+  --main-color: 127, 57, 65;
 }
 .row.nin {
-  --main-color: 14, 9, 15;
+  --main-color: 85, 48, 81;
 }
 .row.mch {
-  --main-color: 13, 31, 46;
+  --main-color: 44, 125, 154;
 }
 .row.drg {
-  --main-color: 15, 14, 47;
+  --main-color: 35, 34, 112;
 }
 .row.smn {
-  --main-color: 10, 25, 17;
+  --main-color: 30, 51, 38;
 }
 .row.mnk {
-  --main-color: 55, 25, 11;
+  --main-color: 160, 78, 38;
 }
 .row.sam {
-  --main-color: 40, 30, 15;
+  --main-color: 153, 137, 78;
 }
 .row.rdm {
-  --main-color: 25, 7, 12;
+  --main-color: 111, 37, 60;
 }
 .row .data-items:before {
   background: rgba(var(--main-color), 0.5);
@@ -81,11 +81,6 @@
     rgba(var(--main-color), 0.1) 100%
   );
   background-repeat: no-repeat;
-}
-.row.self .data-items:before,
-.row.self .data-items.highlight:before,
-.row.self .data-items.highlight.invert:before {
-  background: rgba(255, 255, 255, 0.8);
 }
 .row .damage-percent-bg {
   background: rgba(var(--main-color), 0.3);
