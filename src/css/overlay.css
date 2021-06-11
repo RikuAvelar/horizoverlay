@@ -25,49 +25,49 @@
   --main-color: 255, 255, 255;
 }
 .row.blm {
-  --main-color: 58, 32, 95;
+  --main-color: 140, 84, 155;
 }
 .row.brd {
-  --main-color: 97, 118, 62;
+  --main-color: 159, 180, 94;
 }
 .row.whm {
-  --main-color: 109, 90, 84;
+  --main-color: 157, 152, 133;
 }
 .row.ast {
-  --main-color: 200, 113, 46;
+  --main-color: 207, 140, 61;
 }
 .row.sch {
-  --main-color: 78, 75, 142;
+  --main-color: 118, 117, 177;
 }
 .row.pld {
-  --main-color: 80, 115, 147;
+  --main-color: 127, 182, 213;
 }
 .row.drk {
-  --main-color: 77, 39, 54;
+  --main-color: 189, 95, 69;
 }
 .row.war {
-  --main-color: 127, 57, 65;
+  --main-color: 158, 62, 63;
 }
 .row.nin {
-  --main-color: 85, 48, 81;
+  --main-color: 180, 33, 51;
 }
 .row.mch {
-  --main-color: 44, 125, 154;
+  --main-color: 94, 173, 203;
 }
 .row.drg {
-  --main-color: 35, 34, 112;
+  --main-color: 117, 137, 200;
 }
 .row.smn {
-  --main-color: 30, 51, 38;
+  --main-color: 116, 177, 146;
 }
 .row.mnk {
-  --main-color: 160, 78, 38;
+  --main-color: 218, 124, 37;
 }
 .row.sam {
-  --main-color: 153, 137, 78;
+  --main-color: 186, 162, 67;
 }
 .row.rdm {
-  --main-color: 111, 37, 60;
+  --main-color: 164, 33, 64;
 }
 .row .data-items:before {
   background: rgba(var(--main-color), 0.5);
@@ -136,10 +136,6 @@
   flex-grow: 1;
   position: relative;
   text-align: left;
-}
-.row.self .dps {
-  color: #000;
-  text-shadow: none;
 }
 
 .row .data-items:before {
